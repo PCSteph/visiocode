@@ -1,0 +1,13 @@
+{
+  "name": "stephane/mon-projet",
+  "description": "Une application PHP déployée sur Kubernetes",
+  "type": "project",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
