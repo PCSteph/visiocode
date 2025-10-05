@@ -19,7 +19,7 @@ if (!$data) {
     $acc = "false";
     $raison = "L'identifiant ou le mot de passe est erroné.";
 } else {
-    if ($data['valide'] === '0') {
+    if ($data['valide'] == '0') {
         $_SESSION['id_login'] = $data['id_login'];
         $_SESSION['login'] = $data['login'];
         $_SESSION['prenom'] = $data['prenom'];
