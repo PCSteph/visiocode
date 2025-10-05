@@ -1,8 +1,8 @@
 <?PHP
-$host="visiocode.sql.free.fr";
+$host="192.168.1.134";
 $base="visiocode";
-$logindb="visiocode";
-$passdb="Superman261204@";
+$logindb="remote";
+$passdb="Superman26$";
 $db = mysql_connect($host,$logindb,$passdb);
 mysql_select_db($base,$db);
 ?>
