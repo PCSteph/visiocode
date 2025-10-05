@@ -1,6 +1,12 @@
 <?PHP
 session_start();
 header('Content-Type: text/html; charset=ISO-8859-1');
+echo "<script>";
+echo "alert(\"" . addslashes($_SESSION['page_actuel']) . "\");";
+echo "var myloc = window.location.href;";
+echo "var locarray = myloc.split(\"/\");";
+echo "window.location.href = locarray[0] + '//' + locarray[2];";
+echo "</script>";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr-FR" xml:lang="fr">
