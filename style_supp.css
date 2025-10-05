@@ -1,0 +1,217 @@
+#hiddeniframe {
+	display:none; 
+}
+
+#btn_valid {
+  text-align: center;
+}
+
+.cssform {
+width:500px;
+margin:auto;
+display:block;
+}
+
+.cssform fieldset{
+border:solid 1px #CCC;
+padding-top:7px;
+padding-bottom:7px;
+margin-top:4px;
+}
+.cssform label{
+margin-left:20px;
+width:150px;
+float:left;
+display:block;
+}
+
+.cssform input[type="text"], .cssform input[type="password"], .cssform select {
+display:block;
+margin-left:180px;
+width: 180px;
+margin-bottom:4px;
+}
+
+.cssform textarea{
+margin-left:180px;
+width: 250px;
+height: 150px;
+display:block;
+}
+
+.checklabel {
+}
+.checklabel ul {
+	margin-left:50px;
+}
+.checklabel ul li{
+	width:80px;
+	float:left;
+	background-image:none;
+}
+
+.cssform .checklabel input {
+display:block;
+margin:0;
+width: 40px;
+float:left;
+}
+.cssform .checklabel label {
+margin-left:0;
+width:40px;
+display:block;
+}
+#content_retour {
+	position:relative;
+}
+.vretour {
+	position:absolute;
+	width:182px;
+	height:22px;
+	left:390px;
+	top:-22px;
+	border:solid 0px #CCC;
+	color:#F00;
+}
+#list_ville {
+	position:absolute;
+	width:182px;
+	height:150px;
+	background-color:#FFF;
+	left:180px;
+	top:-4px;
+	border:solid 1px #CCC;
+	overflow:auto;
+	visibility:hidden;
+}
+#list_ville li {
+	background-image:none;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:5px;
+	background-color:#FFC;
+	color:#000;
+	list-style-type:none;
+}
+#list_ville li:hover {
+	cursor:pointer;
+	background-color:#06F;
+	color:#000;
+}
+
+#label_long {
+	width:200px;
+}
+#label_long label{
+	width:100px;
+}
+
+#btn_valid {
+	height:40px;
+}
+a:hover {
+	cursor:pointer;
+}
+.vignette {
+	width:180px;
+	height:180px;
+	text-align:center;
+	border:#CCC 1px solid;
+}
+.block {
+	width:180px;
+	height:180px;
+	position:absolute;
+	}
+#messagerie {
+	position:absolute;
+}
+.poignee {
+	cursor: move;
+	width:100%;
+	height:20px;
+	background-color:#CCC;
+}
+#compte {
+	position: absolute;
+}
+#forfait {
+	position: absolute;
+}
+#classique {
+	position: absolute;
+}
+#theme {
+	position: absolute;
+}
+#visio {
+	position: absolute;
+}
+#forum {
+	position: absolute;
+}
+#statistique {
+	position: absolute;
+}
+#gestionlecon {
+	background-color:#93C;
+	position: absolute;
+}
+#outils {
+	background-color:#6FF;
+	position: absolute;
+}
+#content_accueil {
+	height:800px;
+	width:600px;
+	margin-left:8px;
+	position:relative;
+	display:block;
+}
+#reinit {
+	float:right;
+}
+#suivi_curseur {
+	background-image:url(/images/ajax-loader_black.gif);
+	background-repeat:no-repeat;
+	width:40px;
+	height:40px;
+	position:absolute;
+	z-index:100;
+	display:none;
+}
+.list_serie ul li {
+	background-image:none;
+	float:none;
+	margin:0;
+	padding:0;
+}
+.list_serie ul li ul li{
+	background-image:none;
+	float:left;
+	width:100px;
+	height:50px;
+	border:solid #000 1px;
+	background-color:#000;
+	margin-bottom:30px;
+	margin-left:40px;
+	margin-right:40px
+	margin-top:0px;
+	padding:0;
+	text-align:center;
+	cursor:pointer;
+}
+.list_serie ul li ul li img {
+	margin:0;
+	width:100px;
+	height:50px;
+	float:center;
+}
+.list_serie {
+	margin:0;
+	padding-top:10px;
+	padding-bottom:30px;
+	padding-left:0px;
+	padding-right:10px;
+	border:0;
+}

@@ -1,0 +1,1931 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="fr-FR" xml:lang="fr">
+<head>
+<!--
+    Created by Artisteer v2.0.2.15338
+    Base template (without user's data) checked by http://validator.w3.org : "This page is valid XHTML 1.0 Transitional"
+    -->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>Visio-CodeDeLaRoute.fr</title>
+<STYLE type="text/css">
+/* begin Page */
+
+/* Generated with Artisteer version 2.0.2.15338 */
+
+body
+{
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ABEDAC;
+}
+
+.Main
+{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.PageBackgroundGlare
+{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.PageBackgroundGlareImage
+{
+  background-image: url('http://sd-12936.dedibox.fr/images/Page-BgGlare.png');
+  background-repeat: no-repeat;
+  height: 656px;
+  width: 420px;
+  margin: 0;
+}
+
+html:first-child .PageBackgroundGlare
+{
+  border: 1px solid transparent; /* Opera fix */
+}
+
+
+
+.PageBackgroundSimpleGradient
+{
+  background-image: url('http://sd-12936.dedibox.fr/images/Page-BgSimpleGradient.jpg');
+  background-repeat: repeat-x;
+  height: 500px;
+}
+
+.cleared
+{
+  float: none;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size:1px;
+}
+
+
+/* end Page */
+
+/* begin Box, Sheet */
+.Sheet
+{
+  overflow: hidden;
+  min-width:41px;
+  min-height:41px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  width: 900px;
+}
+
+
+.Sheet-body
+{
+  position: relative;
+  z-index: 0;
+  margin: 5px;
+}
+
+.Sheet-tl
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-s.png');
+ }
+
+.Sheet-tr
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.Sheet-tr div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: -30px;
+  width: 60px;
+  height: 60px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-s.png');
+}
+
+.Sheet-bl
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.Sheet-bl div
+{
+  position: absolute;
+  z-index: -1;
+  top: -30px;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-s.png');
+}
+
+.Sheet-br
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.Sheet-br div
+{
+  position: absolute;
+  z-index: -1;
+  top: -30px;
+  left: -30px;
+  width: 60px;
+  height: 60px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-s.png');
+}
+
+.Sheet-tc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 0;
+  left: 30px;
+  right: 30px;
+  height: 30px;
+}
+
+.Sheet-tc div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-h.png');
+}
+
+.Sheet-bc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  bottom: 0;
+  left: 30px;
+  right: 30px;
+  height: 30px;
+}
+
+.Sheet-bc div
+{
+  position: absolute;
+  z-index: -1;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-h.png');
+}
+
+.Sheet-cl
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 30px;
+  left: 0;
+  width: 30px;
+  bottom: 30px;
+}
+
+.Sheet-cl div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-v.png');
+}
+
+.Sheet-cr
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 30px;
+  right: 0;
+  width: 30px;
+  bottom: 30px;
+}
+
+.Sheet-cr div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -30px;
+  width: 60px;
+  height: 100%;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-v.png');
+}
+
+.Sheet-cc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -2;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Sheet-c.png');
+}
+
+
+.Sheet
+{
+  margin-top: 10px !important;
+}
+/* end Box, Sheet */
+
+/* begin Header */
+div.Header
+{
+  margin: 0 auto;
+  position: relative;
+  z-index:0;
+  width: 890px;
+  height: 125px;
+}
+
+div.Header-png
+{
+  position: absolute;
+  z-index:-2;
+  top: 0;
+  left: 0;
+  width: 890px;
+  height: 125px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Header.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+
+div.Header-jpeg
+{
+  position: absolute;
+  z-index:-1;
+  top: 0;
+  left: 0;
+  width: 890px;
+  height: 125px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Header.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* end Header */
+
+/* begin Logo */
+.logo
+{
+  display : block;
+  position: absolute;
+  left: 10px;
+  top: 46px;
+  width: 336px;
+}
+
+h1.logo-name
+{
+  display: block;
+  text-align: center;
+}
+
+h1.logo-name, h1.logo-name a, h1.logo-name a:link, h1.logo-name a:visited, h1.logo-name a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  padding:0;
+  margin:0;
+  color: #FFFFFF !important;
+}
+
+.logo-text
+{
+  display: block;
+  text-align: center;
+}
+
+.logo-text, .logo-text a
+{
+{LogoSloganFont}
+  padding:0;
+  margin:0;
+  color: {TextFontColor} !important;
+}
+
+/* end Logo */
+
+/* begin Menu */
+/* menu structure */
+
+.artmenu a, .artmenu a:link, .artmenu a:visited, .artmenu a:hover
+{
+  text-align:left;
+  text-decoration:none;
+  outline:none;
+  letter-spacing:normal;
+  word-spacing:normal;
+}
+
+.artmenu, .artmenu ul
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  display: block;
+}
+
+.artmenu li
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background:none;
+}
+
+.artmenu li:hover
+{
+  z-index: 10000;
+  white-space: normal;
+}
+
+.artmenu li li
+{
+  float: none;
+}
+
+.artmenu ul
+{
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background:none;
+}
+
+.artmenu li:hover>ul
+{
+  visibility: visible;
+  top: 100%;
+}
+
+.artmenu li li:hover>ul
+{
+  top: 0;
+  left: 100%;
+}
+
+.artmenu:after, .artmenu ul:after
+{
+  content: ".";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+  clear: both;
+}
+.artmenu, .artmenu ul
+{
+  min-height: 0;
+}
+
+.artmenu ul
+{
+  background-image: url(images/spacer.gif);
+  padding: 10px 30px 30px 30px;
+  margin: -10px 0 0 -30px;
+}
+
+.artmenu ul ul
+{
+  padding: 30px 30px 30px 10px;
+  margin: -30px 0 0 -10px;
+}
+
+
+/* menu structure */
+
+.nav
+{
+  position: relative;
+  margin: 0  auto;
+  width: 890px;
+  height: 36px;
+  z-index: 100;
+}
+
+.artmenu
+{
+  padding: 4px 4px 4px 4px;
+}
+
+
+.nav .l, .nav .r, .nav .r div
+{
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  height: 36px;
+}
+
+.nav .l
+{
+  left: 0;
+  right: 0px;
+}
+
+
+.nav .r
+{
+  right: 0;
+  width: 0px;
+}
+
+
+.nav .r div
+{
+  width: 890px;
+  right: 0;
+}
+
+
+.nav .l, .nav .r div
+{
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-image: url('http://sd-12936.dedibox.fr/images/nav.png');
+}
+
+/* end Menu */
+
+/* begin MenuItem */
+.artmenu ul li
+{
+  clear: both;
+}
+
+.artmenu a , .artmenu a span
+{
+  height: 28px;
+  display: block;
+}
+
+
+.artmenu a
+{
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 2px;
+  margin-left: 2px;
+
+}
+.artmenu a
+{
+  background-image: url('http://sd-12936.dedibox.fr/images/item-left.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.artmenu a span
+{
+  background-image: url('http://sd-12936.dedibox.fr/images/item-right.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+.artmenu a span span
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  padding: 0 6px;
+  margin: 0 7px;
+  line-height: 28px;
+  text-align: center;
+  background-image: url('http://sd-12936.dedibox.fr/images/item-center.png');
+  background-position: left top;
+  background-repeat: repeat-x;
+
+}
+
+
+.artmenu a:hover
+{
+  background-position: left -28px;
+}
+
+.artmenu li:hover>a
+{
+  background-position: left -28px;
+}
+.artmenu li:hover a span
+{
+  background-position: right -28px;
+}
+
+.artmenu a:hover span
+{
+  background-position: right -28px;
+}
+
+
+.artmenu a:hover span span
+{
+  color: #000000;
+  background-position: left -28px;
+}
+
+.artmenu li:hover a span span
+{
+  color: #000000;
+  background-position: left -28px;
+}
+
+
+.artmenu a.active
+{
+  background-position: left -56px;
+}
+
+.artmenu a.active span
+{
+  background-position: right -56px;
+}
+
+.artmenu a.active span span
+{
+  color: #000000;
+  background-position: left -56px;
+}
+
+/* end MenuItem */
+
+/* begin MenuSeparator */
+.nav .separator
+{
+  display: block;
+  width: 1px;
+  height: 28px;
+  background-image: url('http://sd-12936.dedibox.fr/images/item-separator.png');
+}
+
+/* end MenuSeparator */
+
+/* begin MenuSubItem */
+.artmenu ul a
+{
+  display:block;
+  text-align: center;
+  white-space: nowrap;
+  height: 22px;
+  width: 177px;
+  overflow:hidden;
+  line-height: 22px;
+  margin-right: auto;
+
+
+  background-image: url('http://sd-12936.dedibox.fr/images/subitem-bg.png');
+  background-position: left top;
+  background-repeat: repeat-x;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #5EA2D9;
+}
+
+.nav ul.artmenu ul span, .nav ul.artmenu ul span span
+{
+  display: inline;
+  float: none;
+  margin: inherit;
+  padding: inherit;
+  background-image: none;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+
+.artmenu ul a, .artmenu ul a:link, .artmenu ul a:visited, .artmenu ul a:hover, .artmenu ul a:active, .nav ul.artmenu ul span, .nav ul.artmenu ul span span
+{
+  text-align: left;
+  text-indent: 12px;
+  text-decoration: none;
+  line-height: 22px;
+  color: #5A4E02;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.artmenu ul ul a
+{
+  margin-left: auto;
+}
+
+.artmenu ul li a:hover
+{
+  color: #000000;
+  border-color: #5EA2D9;
+  background-position: 0 -22px;
+}
+
+.artmenu ul li:hover>a
+{
+  color: #000000;
+  border-color: #5EA2D9;
+  background-position: 0 -22px;
+}
+
+.nav .artmenu ul li a:hover span, .nav .artmenu ul li a:hover span span
+{
+  color: #000000;
+}
+
+.nav .artmenu ul li:hover>a span, .nav .artmenu ul li:hover>a span span
+{
+  color: #000000;
+}
+
+
+/* end MenuSubItem */
+
+/* begin ContentLayout */
+.contentLayout
+{
+  margin-bottom: 2px;
+  width: 890px;
+  position: relative;
+}
+/* end ContentLayout */
+
+/* begin Box, Block */
+.Block
+{
+  overflow: hidden;
+  min-width:31px;
+  min-height:31px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+
+.Block-body
+{
+  position: relative;
+  z-index: 0;
+  margin: 4px;
+}
+
+.Block-tl
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 19px;
+  height: 19px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-s.png');
+}
+
+.Block-tr
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.Block-tr div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: -19px;
+  width: 38px;
+  height: 38px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-s.png');
+}
+
+.Block-bl
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.Block-bl div
+{
+  position: absolute;
+  z-index: -1;
+  top: -19px;
+  left: 0;
+  width: 38px;
+  height: 38px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-s.png');
+}
+
+.Block-br
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.Block-br div
+{
+  position: absolute;
+  z-index: -1;
+  top: -19px;
+  left: -19px;
+  width: 38px;
+  height: 38px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-s.png');
+}
+
+.Block-tc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 0;
+  left: 19px;
+  right: 19px;
+  height: 19px;
+}
+
+.Block-tc div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 38px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-h.png');
+}
+
+.Block-bc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  bottom: 0;
+  left: 19px;
+  right: 19px;
+  height: 19px;
+}
+
+.Block-bc div
+{
+  position: absolute;
+  z-index: -1;
+  top: -19px;
+  left: 0;
+  width: 100%;
+  height: 38px;
+
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-h.png');
+}
+
+.Block-cl
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 19px;
+  left: 0;
+  width: 19px;
+  bottom: 19px;
+}
+
+.Block-cl div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 38px;
+  height: 100%;
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-v.png');
+}
+
+.Block-cr
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 19px;
+  right: 0;
+  width: 19px;
+  bottom: 19px;
+}
+
+.Block-cr div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -19px;
+  width: 38px;
+  height: 100%;
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-v.png');
+}
+
+.Block-cc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -2;
+  top: 19px;
+  left: 19px;
+  right: 19px;
+  bottom: 19px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Block-c.png');
+}
+
+
+.Block
+{
+  margin: 7px;
+}
+
+/* end Box, Block */
+
+/* begin BlockHeader */
+.BlockHeader
+{
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  z-index: 0;
+  line-height: 30px;
+  padding: 0 10px;
+  margin-bottom: 0px;
+
+}
+
+.BlockHeader-text
+{
+  white-space : nowrap;
+  color: #000000;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+
+.BlockHeader .l, .BlockHeader .r, .BlockHeader .r div
+{
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  height: 30px;
+}
+
+.BlockHeader .l
+{
+  left: 0;
+  right: 0px;
+}
+
+
+.BlockHeader .r
+{
+  right: 0;
+  width: 0px;
+}
+
+
+.BlockHeader .r div
+{
+  width: 890px;
+  right: 0;
+}
+
+
+
+
+
+.header-tag-icon
+{
+  display:inline-block;
+  background-position:left top;
+  background-image: url('http://sd-12936.dedibox.fr/images/BlockHeaderIcon.png');
+  padding:0 0 0 18px;
+  background-repeat: no-repeat;
+  min-height: 8px;
+  margin: 0 0 0 5px;
+}
+
+
+
+
+/* end BlockHeader */
+
+/* begin Box, BlockContent */
+.BlockContent
+{
+  overflow: hidden;
+  min-width:1px;
+  min-height:1px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+
+.BlockContent-body
+{
+  position: relative;
+  z-index: 0;
+  margin: 10px;
+}
+
+
+.BlockContent-body
+{
+  color:#0F293E;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.BlockContent-body a:link
+{
+  color: #586742;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+}
+
+.BlockContent-body a:visited, .BlockContent-body a.visited
+{
+  color: #586742;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+}
+
+.BlockContent-body a:hover, .BlockContent-body a.hover
+{
+  color: #20A7BC;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+}
+
+
+.BlockContent-body ul
+{
+  list-style-type: none;
+  color: #9A8604;
+  margin:0;
+  padding:0;
+}
+
+.BlockContent-body li
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+
+/* end Box, BlockContent */
+
+/* begin Box, Post */
+.Post
+{
+  overflow: hidden;
+  min-width:23px;
+  min-height:23px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+
+.Post-body
+{
+  position: relative;
+  z-index: 0;
+  margin: 15px;
+}
+
+.Post-tl
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-s.png');
+}
+
+.Post-tr
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.Post-tr div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-s.png');
+}
+
+.Post-bl
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.Post-bl div
+{
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-s.png');
+}
+
+.Post-br
+{
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.Post-br div
+{
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-s.png');
+}
+
+.Post-tc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  height: 15px;
+}
+
+.Post-tc div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-h.png');
+}
+
+.Post-bc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  height: 15px;
+}
+
+.Post-bc div
+{
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-h.png');
+}
+
+.Post-cl
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 15px;
+  left: 0;
+  width: 15px;
+  bottom: 15px;
+}
+
+.Post-cl div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-v.png');
+}
+
+.Post-cr
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -1;
+  top: 15px;
+  right: 0;
+  width: 15px;
+  bottom: 15px;
+}
+
+.Post-cr div
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -15px;
+  width: 30px;
+  height: 100%;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-v.png');
+}
+
+.Post-cc
+{
+  position: absolute;
+  overflow:hidden;
+  z-index: -2;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  background-image: url('http://sd-12936.dedibox.fr/images/Post-c.png');
+}
+
+
+.Post
+{
+  margin: 10px;
+}
+
+
+/* Start images */
+a img
+{
+  border: 0;
+}
+
+.article img, img.article
+{
+  border-style: solid;
+  border-width: 0px;
+  border-color: #8BBCE4;
+  margin: 1em;
+}
+
+.metadata-icons img
+{
+  border: none;
+  vertical-align: middle;
+  margin:2px;
+}
+/* Finish images */
+
+/* Start tables */
+
+.article table, table.article
+{
+  border-collapse: collapse;
+  margin: 1px;
+  width:auto;
+}
+
+.article table, table.article .article tr, .article th, .article td
+{
+  background-color:Transparent;
+}
+
+.article th, .article td
+{
+  padding: 2px;
+  border: solid 1px #266AA1;
+  vertical-align: top;
+  text-align:left;
+}
+
+.article th
+{
+  text-align:center;
+  vertical-align:middle;
+  padding: 7px;
+}
+
+
+
+/* Finish tables */
+/* end Box, Post */
+
+/* begin PostHeaderIcon */
+.PostHeaderIcon-wrapper
+{
+  text-decoration:none;
+  margin: 0.2em 0;
+  padding: 0;
+  font-weight:normal;
+  font-style:normal;
+  letter-spacing:normal;
+  word-spacing:normal;
+  font-variant:normal;
+  text-decoration:none;
+  font-variant:normal;
+  text-transform:none;
+  text-align:left;
+  text-indent:0;
+  line-height:inherit;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #505D3C;
+}
+
+.PostHeaderIcon-wrapper, .PostHeaderIcon-wrapper a, .PostHeaderIcon-wrapper a:link, .PostHeaderIcon-wrapper a:visited, .PostHeaderIcon-wrapper a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #505D3C;
+}
+
+/* end PostHeaderIcon */
+
+/* begin PostHeader */
+.PostHeader a:link
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  text-align: left;
+  color: #63734A;
+}
+
+.PostHeader a:visited, .PostHeader a.visited
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  text-align: left;
+  color: #B8A005;
+}
+
+.PostHeader a:hover, .PostHeader a.hovered
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  text-align: left;
+  color: #0BB6D0;
+}
+/* end PostHeader */
+
+/* begin PostContent */
+/* Content Text Font & Color (Default) */
+body
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  color: #BDA405;
+}
+
+.PostContent
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: justify;
+  color: #BDA405;
+}
+
+/* Start Content link style */
+/*
+The right order of link pseudo-classes: Link-Visited-Hover-Focus-Active.
+http://www.w3schools.com/CSS/css_pseudo_classes.asp
+http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states/
+*/
+a
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+  color: #768958;
+}
+
+/* Adds special style to an unvisited link. */
+a:link
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+  color: #768958;
+}
+
+/* Adds special style to a visited link. */
+a:visited, a.visited
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+  color: #DBBE06;
+}
+
+/* :hover - adds special style to an element when you mouse over it. */
+a:hover, a.hover
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  color: #0BB6D0;
+}
+
+/* Finish Content link style */
+
+/* Resert some headings default style & links default style for links in headings*/
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited
+{
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+
+/* Start Content headings Fonts & Colors  */
+h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #586742;
+}
+
+h2, h2 a, h2 a:link, h2 a:visited, h2 a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #768958;
+}
+
+h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #92A573;
+}
+
+h4, h4 a, h4 a:link, h4 a:visited, h4 a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #0F293E;
+}
+
+h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #0F293E;
+}
+
+h6, h6 a, h6 a:link, h6 a:visited, h6 a:hover
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #0F293E;
+}
+/* Finish Content headings Fonts & Colors  */
+
+/* end PostContent */
+
+/* begin PostBullets */
+/* Start Content list */
+
+ul
+{
+  list-style-type: none;
+  color: #231E01;
+  margin:0;
+  padding:0;
+}
+
+li
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+}
+
+
+
+.Post ul li
+{
+  padding:0px 0 0px 15px;
+  background-image: url('http://sd-12936.dedibox.fr/images/PostBullets.png');
+  background-repeat:no-repeat;
+  margin:0.5em 0 0.5em 0;
+  line-height:1.2em;
+}
+
+
+/* Finish Content list */
+/* end PostBullets */
+
+/* begin PostQuote */
+/* Start blockquote */
+
+blockquote p
+{
+  color:#12334E;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-style: italic;
+  font-weight: normal;
+  text-align: left;
+}
+
+blockquote
+{
+  border-color:#8BBCE4;
+  border-width: 0px;
+  border-style: solid;
+
+  margin:10px 10px 10px 50px;
+  padding:5px 5px 5px 41px;
+
+  background-color:#C5DEF1;
+
+  background-image:url('http://sd-12936.dedibox.fr/images/PostQuote.png');
+  background-position:left top;
+  background-repeat:no-repeat;
+}
+
+
+
+/* Finish blockuote */
+/* end PostQuote */
+
+/* begin Button */
+button.Button, a.Button
+{
+  position:relative;
+  display:inline-block;
+  width: auto;
+  outline:none;
+  border:none;
+  background:none;
+  line-height:36px;
+  margin:0;
+  padding:0;
+  overflow: visible;
+  cursor: default;
+  text-decoration: none !important;
+}
+
+
+/*This HACK needed for ie7 (button position)*/
+*:first-child+html button.Button, *:first-child+html a.Button
+{
+  display:list-item;
+  list-style-type:none;
+  float:left;
+}
+
+
+.Button .btn
+{
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: auto;
+  z-index: 0;
+  height: 36px;
+  color: #000000;
+  white-space: nowrap;
+  float: left;
+}
+
+.Button .t
+{
+  height:36px;
+  white-space: normal;
+  padding: 0 26px;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  line-height: 36px;
+  text-decoration: none !important;
+}
+
+input, select
+{
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.Button .active
+{
+  color: #F3F5EF;
+}
+
+.Button .hover,  a.Button:hover
+{
+  color: #000000;
+  text-decoration: none !important;
+}
+
+.Button .active .r
+{
+  top: -72px;
+}
+
+.Button .hover .r
+{
+  top: -36px;
+}
+
+.Button .r
+{
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 18px;
+  height: 108px;
+}
+
+
+.Button .r span
+{
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width:425px;
+  height: 108px;
+}
+
+
+.Button .active .l
+{
+  top: -72px;
+}
+
+.Button .hover .l
+{
+  top: -36px;
+}
+
+.Button .l
+{
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 18px;
+  height: 108px;
+}
+
+
+.Button .l, .Button .r span
+{
+  background-image: url('http://sd-12936.dedibox.fr/images/Button.png');
+}
+
+/* end Button */
+
+/* begin Footer */
+.Footer
+{
+  position:relative;
+  z-index:0;
+  overflow:hidden;
+  width: 890px;
+  margin: 5px auto 0px auto;
+}
+
+.Footer .Footer-inner
+{
+  height:1%;
+  position: relative;
+  z-index: 0;
+  padding: 8px;
+  text-align: center;
+}
+
+.Footer .Footer-background
+{
+  position:absolute;
+  z-index:-1;
+  background-repeat:no-repeat;
+  background-image: url('http://sd-12936.dedibox.fr/images/Footer.png');
+  width: 890px;
+  height: 100px;
+  bottom:0;
+  left:0;
+}
+
+
+
+.rss-tag-icon
+{
+  position: relative;
+  display:block;
+  float:left;
+  background-image: url('http://sd-12936.dedibox.fr/images/rssIcon.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  margin: 0 5px 0 0;
+  height: 25px;
+  width: 25px;
+}
+
+
+
+
+.Footer .Footer-text p
+{
+  margin: 0;
+}
+
+.Footer .Footer-text
+{
+  display:inline-block;
+  color:#B8A005;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 11px;
+}
+
+.Footer .Footer-text a:link
+{
+  text-decoration: none;
+  color: #566440;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+}
+
+.Footer .Footer-text a:visited
+{
+  text-decoration: none;
+  color: #9F8A04;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+}
+
+.Footer .Footer-text a:hover
+{
+  text-decoration: none;
+  color: #20A7BC;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+}
+/* end Footer */
+
+/* begin PageFooter */
+.page-footer, .page-footer a, .page-footer a:link, .page-footer a:visited, .page-footer a:hover
+{
+  font-family:Arial;
+  font-size:10px;
+  letter-spacing:normal;
+  word-spacing:normal;
+  font-style:normal;
+  font-weight:normal;
+  text-decoration:underline;
+  color:#FBE96F;
+}
+
+.page-footer
+{
+  margin:1em;
+  text-align:center;
+  text-decoration:none;
+  color:#C7AD05;
+}
+/* end PageFooter */
+
+/* begin LayoutCell */
+.contentLayout .sidebar1
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  float: left;
+  overflow: hidden;
+  width: 222px;
+}
+
+/* end LayoutCell */
+
+/* begin LayoutCell */
+.contentLayout .content
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  float: left;
+  overflow: hidden;
+  width: 667px;
+}
+
+</style>
+</head>
+<body>
+<div class="PageBackgroundSimpleGradient"> </div>
+<div class="PageBackgroundGlare">
+  <div class="PageBackgroundGlareImage"></div>
+</div>
+<div class="Main">
+  <div class="Sheet">
+    <div class="Sheet-tl"></div>
+    <div class="Sheet-tr">
+      <div></div>
+    </div>
+    <div class="Sheet-bl">
+      <div></div>
+    </div>
+    <div class="Sheet-br">
+      <div></div>
+    </div>
+    <div class="Sheet-tc">
+      <div></div>
+    </div>
+    <div class="Sheet-bc">
+      <div></div>
+    </div>
+    <div class="Sheet-cl">
+      <div></div>
+    </div>
+    <div class="Sheet-cr">
+      <div></div>
+    </div>
+    <div class="Sheet-cc"></div>
+    <div class="Sheet-body">
+      <div class="Header">
+        <div class="Header-png"></div>
+        <div class="Header-jpeg"></div>
+        <div class="logo">
+          <h1 id="name-text" class="logo-name"><a href="#">Visio-Code de la route</a></h1>
+          <div id="slogan-text" class="logo-text"></div>
+        </div>
+      </div>
+      <div class="contentLayout">
+        <div width="100%" align="center">
+          <div>
+            <div class="Post">
+              <div class="Post-tl"></div>
+              <div class="Post-tr">
+                <div></div>
+              </div>
+              <div class="Post-bl">
+                <div></div>
+              </div>
+              <div class="Post-br">
+                <div></div>
+              </div>
+              <div class="Post-tc">
+                <div></div>
+              </div>
+              <div class="Post-bc">
+                <div></div>
+              </div>
+              <div class="Post-cl">
+                <div></div>
+              </div>
+              <div class="Post-cr">
+                <div></div>
+              </div>
+              <div class="Post-cc"></div>
+              <div class="Post-body">
+                <div class="Post-inner">
+                  <h2 class="PostHeaderIcon-wrapper"> <span class="PostHeader">Inscription</span> </h2>
+                  <div class="PostContent"><div id="principal">

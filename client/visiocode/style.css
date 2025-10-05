@@ -1,0 +1,284 @@
+body {
+background-color:black;
+margin:0px 0px 0px 0px;
+text-align:center;
+}
+h1 {
+font-family:verdana, sans-serif;
+font-size:100%;
+color:white;
+background-color:transparent;
+text-align:left;
+}
+h2 {
+  font-family:verdana, sans-serif;
+  font-size:90%;
+  color:white;
+  background-color:transparent;
+  text-align:left;
+  font-weight:bold;
+}
+h3 {
+  font-family:verdana, sans-serif;
+  font-size:80%;
+  color:black;
+  background-color:transparent;
+  text-align:left;
+}
+
+#corps {
+  width:1010px;
+  height:680px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-width:1px;
+  border-style:solid;
+  border-color:#aeaeae;
+}
+
+#chargement {
+  position:absolute;
+  width:1010px;
+  height:680px;
+  margin-left: -505px;
+  margin-top: 0;
+  top:0;
+  left:50%;
+  text-align:center;
+  font-size:36px;
+  color:#FFF;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+#contenu {
+  width:800px;
+  float: left;
+}
+#marge_haut{
+  width:210px;
+  float: right;
+  height:400px;
+  position:relative;
+}
+#photo {
+  width:800px;
+  height:400px;
+  float:left;
+  }
+#contenu_haut {
+  height:400px;
+  width:1010px;
+  text-align:center;
+}
+#contenu_bas {
+  height:280px;
+  width:1010px;
+  position:relative;
+}
+#chrono {
+  width:80px;
+  height:80px;
+  background-image: url('../../images/chrono_compteur.gif');
+  float:right;
+  position:absolute;
+  top:5px;
+  left:60px;
+  visibility:hidden;
+}
+#chrono_compteur {
+  font-family:verdana, sans-serif;
+  font-size:200%;
+  color:black;
+  text-align:center;
+  font-weight:bold;
+  position:absolute;
+  left:17px;
+  top:20px
+}
+#feux {
+  width:104px;
+  height:264px;
+  position:absolute;
+  top:90px;
+  left:50px;
+  background-image: url('../../images/feux.jpg');
+  visibility:hidden;
+}
+#feux_rouge {
+  width:59px;
+  height:59px;
+  position:absolute;
+  top:22px;
+  left:23px;
+}
+#feux_orange {
+  width:59px;
+  height:59px;
+  position:absolute;
+  top:102px;
+  left:23px;
+}
+#feux_vert {
+  width:59px;
+  height:59px;
+  position:absolute;
+  top:181px;
+  left:22px;
+}
+#question_suivante {
+  width:170px;
+  height:35px;
+  position:absolute;
+  top:365px;
+  left:20px;
+}
+#explication {
+  width:320px;
+  height:240px;
+  position:absolute;
+  top:20px;
+  left:690px;
+  background-image: url('../../images/panneau_explication.jpg');
+  /*display:none;*/
+}
+#explication_contenu {
+  /*display:none;*/
+  width:269px;
+  height:192px;
+  text-align:center;
+  color:black;
+  font-family:verdana, sans-serif;
+  position:absolute;
+  top:23px;
+  left:24px;
+  overflow:auto;
+}
+#question_reponse {
+  width:560px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+#boitier {
+  width:106px;
+  height:280px;
+  position:absolute;
+  top:0px;
+  left:560px;
+  visibility:hidden;
+}
+#lecture_audio {
+  position:absolute;
+  top:260px;
+  left:0px;
+  visibility:hidden;
+}
+#contact {
+  position:absolute;
+  top:250px;
+  left:5px;
+}
+#num_question
+{
+  text-align:right;
+  color:black;
+  font-size:150%;
+  font-weight:bold;
+  font-family:verdana, sans-serif;
+  /*background-color:blue;*/
+  width:30px;
+  height:40px;
+  position:absolute;
+  top:47px;
+  left:43px;
+}
+#a
+{
+  text-align:center;
+  color:black;
+  font-size:80%;
+  font-weight:bold;
+  font-family:verdana, sans-serif;
+  /*background-color:blue;*/
+  width:10px;
+  height:12px;
+  position:absolute;
+  top:16px;
+  left:32px;
+}
+#b
+{
+  text-align:center;
+  color:black;
+  font-size:80%;
+  font-weight:bold;
+  font-family:verdana, sans-serif;
+  /*background-color:yellow;*/
+  width:10px;
+  height:12px;
+  position:absolute;
+  top:30px;
+  left:32px;
+}
+#c
+{
+  text-align:center;
+  color:black;
+  font-size:80%;
+  font-weight:bold;
+  font-family:verdana, sans-serif;
+  /*background-color:red;*/
+  width:10px;
+  height:12px;
+  position:absolute;
+  top:44px;
+  left:32px;
+}
+#d
+{
+  text-align:center;
+  color:black;
+  font-size:80%;
+  font-weight:bold;
+  font-family:verdana, sans-serif;
+  /*background-color:green;*/
+  width:10px;
+  height:12px;
+  position:absolute;
+  top:58px;
+  left:32px;
+}
+#reponseA {
+  font-family:verdana, sans-serif;
+  font-size:100%;
+  color:white;
+  background-color:transparent;
+  text-align:left;
+  font-weight:bold;
+}
+#reponseB {
+  font-family:verdana, sans-serif;
+  font-size:100%;
+  color:white;
+  background-color:transparent;
+  text-align:left;
+  font-weight:bold;
+}
+#reponseC {
+  font-family:verdana, sans-serif;
+  font-size:100%;
+  color:white;
+  background-color:transparent;
+  text-align:left;
+  font-weight:bold;
+}
+#reponseD {
+  font-family:verdana, sans-serif;
+  font-size:100%;
+  color:white;
+  background-color:transparent;
+  text-align:left;
+  font-weight:bold;
+}
+
