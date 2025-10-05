@@ -38,7 +38,7 @@ if (!$data) {
         $acc = "true";
     } else {
         $acc = "false";
-        $raison = "Votre compte n'est pas activé. En cas de problème, vous pouvez contacter l'administrateur du site par email à l'adresse suivante : visiocode@free.fr";
+        $raison = $data['valide']."Votre compte n'est pas activé. En cas de problème, vous pouvez contacter l'administrateur du site par email à l'adresse suivante : visiocode@free.fr";
     }
 }
 
